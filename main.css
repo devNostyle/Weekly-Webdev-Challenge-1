@@ -1,0 +1,257 @@
+
+html {
+	box-sizing: border-box;
+	
+  }
+  
+  *,
+  *:before,
+  *:after {
+	box-sizing: inherit;
+  }
+  
+body  {
+	background-image: url("IMG/tlo.jpg");
+	background-size: cover;
+	font-family: "Titillium Web", sans-serif; 
+}			
+
+
+
+.top-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0.42; 
+	margin-top: 1rem;
+}
+
+.main-container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	max-height: 1200px;
+	align-items: center;
+	align-content: center;
+	margin-top: 1.25rem;
+	margin-bottom: 1.25rem;
+	margin: 0 -5px;
+ }
+
+ .h2 {
+	font-size: 2rem;
+	text-shadow: 1px 2px 2px #2b0100;
+	color: #FFFFFF;
+ }
+
+.rf-container  {
+	display: flex;
+	margin: 0 55px;
+	max-width: 380px;
+	background-color: #f4f4f4;
+	padding: 20px 20px;
+	box-shadow: 0px 0px 0px 20px rgba(0,0,0,0.24);
+ }
+
+ .form-rf {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+ }
+
+.rf-element  {
+	display:flex;
+	background-color: #f8f8f8;
+	border: 1px solid #c6c6c6;
+	border-radius: 2px;
+	margin-bottom: 1.25rem;
+	height: 2.5rem;
+
+}
+
+.rf-element:hover {
+	border-color: #88c814;
+}
+
+.main-icon {
+	width: 45px;
+	flex: 2;
+	color: #dedede;
+	font-size: 1.375rem;
+	text-align: center;
+	padding-top: 1%;
+}
+
+.main_field {
+	flex: 10;
+	height: 100%;
+	border: none;
+	background-color: #f8f8f8;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1rem;
+	color: #afafaf;
+	padding-left: 3%;
+	outline: none;
+	border-style: none;
+	width: 280px;
+}
+
+.main_field:focus {
+	color: #428c42;
+	box-shadow: 0 0 10px 2px rgba(204,204,204,0.9);
+	border: 2px solid #a5cda5;
+	background-color: #e9f3e9;
+}
+
+.separator {
+	display: flex;
+	width: 5px;
+	min-height: 100%;
+	background-color: #dedede;
+	border-top: 0.1875rem solid #f8f8f8;
+	border-bottom: 0.1875rem solid #f8f8f8;
+}
+
+ /*  checkbox */
+.checkbox-custom {
+    opacity: 0;
+    position: absolute;   
+}
+
+.checkbox-custom, .checkbox-custom-label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0.3125rem;
+    cursor: pointer;
+}
+
+.checkbox-custom-label{
+    position: relative;
+}
+
+.checkbox-custom + .checkbox-custom-label:before{
+    content: '';
+    background: #fff;
+    border: 0.125rem solid #ddd;
+    display: inline-block;
+    vertical-align: middle;
+    width:1.25rem;
+    height: 1.25rem;
+    padding: 0.125rem;
+    margin-right: 0.625rem;
+    text-align: center;
+}
+
+.checkbox-custom:checked + .checkbox-custom-label:before {
+    content: "";
+    background: #428c42; 
+}
+ /*  checkbox end */
+
+.main_green_button {
+	margin-top: 0.5rem;	
+	width: 100%;
+	border: 0.0625rem solid #3b9a00;
+	border-radius: 0.125rem;
+	font-size: 1.5rem;
+	font-family: 'Titillium Web', sans-serif;
+	color: #FFFFFF;
+	text-shadow: 0.0625rem 0.0625rem #51850e;
+	background: linear-gradient(#a3d840, #73b618);
+	height: 3rem;
+	box-shadow: 0.0625rem 0.0625rem 0.0625rem 0px #FFFFFF;
+	cursor: pointer;
+}
+
+.main_green_button:hover {
+ 	background: linear-gradient(#AAE650, #7DC323);
+}
+
+.main_green_button_smaller {
+	height: 2.1875rem;
+	font-size: 1rem;
+	width: 45%;
+	
+}
+
+.main_green_button_smaller-disabled {
+	opacity: 0.5;
+	cursor: no-drop;
+}
+
+.main_green_button_smaller-warning {
+	background: linear-gradient(#f65e70, #f03747);
+	border: 1px rgba(209, 18, 18, 0.616);
+}
+
+.main_green_button_smaller-warning:hover {
+	background: linear-gradient(#FF697D, #FA4155);
+}
+
+ /*  button  end */
+
+ /*  text area*/
+
+ .textarea {
+	width: 100%;
+	margin-bottom: 1.25rem;
+	background-color: #f8f8f8;
+	border: 0.0625rem solid #c6c6c6;
+	border-radius: 1.5px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1rem;
+	color: #afafaf;
+	resize: none;
+ }
+
+ .doublebtn {
+  display: flex;
+	justify-content: space-between;
+	align-items: center;
+ }
+
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	opacity: 0.5;
+}
+
+.footer_top {
+  margin: 3.125rem 0px 0.5rem 0px;
+}
+
+
+ /*  MEDIA*/
+
+ @media only screen and (max-width: 945px) {
+	
+	.main-container {
+	
+	max-height: 3100px;
+	}
+} 
+
+@media only screen and (max-width: 480px) {
+
+ .main-container {
+	 margin: 0 auto;
+	 padding: 10px 10px;
+ }
+
+ .rf-container {
+	margin: 0 auto;
+  
+ }
+
+ .main_field {
+	width: 75%;
+ }
+ .footer img {
+	 width: 280px;
+ }
+
+}

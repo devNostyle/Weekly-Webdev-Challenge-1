@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="main.css">
+   <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300" rel="stylesheet">
+	<title>masteralb</title>
+</head>
+<body>
+	
+	<header class="top-container">
+		<img class="top-container_img" src="IMG/logo.png" alt="Company logo">
+  		<img class="top-container_img-brand" src="IMG/brand_name.png" alt="Company brand name">
+	</header>
+	
+	<section class="main-container">
+	 <!-- REGISTER FORM -->
+				
+	 <h2 class="h2">Register Form</h2>
+		<div class="rf-container">
+         
+			<form action="" class="form-rf">
+				
+				<!-- REGISTER FORM / 1 row -->
+					<div class="rf-element">
+						<div class="main-icon">
+							<i class="fa fa-user" aria-hidden="true"></i>
+						</div>
+						<div class="separator"></div>
+						<input class="main_field" type="text" name="username"placeholder="Username" onfocus="this.placeholder=''" onblur="this.placeholder='Username'" required>
+					</div>
+				<!-- REGISTER FORM / 2 row -->          
+					<div class="rf-element">
+						<div class="main-icon">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+						</div>
+						<div class="separator"></div>
+						<input class="main_field" type="password" name="password"placeholder="Password"
+						onfocus="this.placeholder=''" onblur="this.placeholder='Password'"  required>
+					</div>				
+				<!-- REGISTER FORM / 3 row --> 
+					<div class="rf-element">
+						<div class="main-icon">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+						</div>
+						<div class="separator"></div>
+						<input class="main_field" type="password" name="Confirm Password"placeholder="Confirm Password" onfocus="this.placeholder=''" onblur="this.placeholder='Confirm Password'"  required>
+					</div>				
+				<!-- REGISTER FORM / 4 row --> 
+					<div class="rf-element">
+						<div class="main-icon">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</div>
+						<div class="separator"></div>
+						<input class="main_field" type="email" name="Email"placeholder="Email" onfocus="this.placeholder=''" onblur="this.placeholder='Email'"  required>
+					</div>	
+				<!-- REGISTER FORM / 5 row --> 
+					<div class="rf-element">
+						<div class="main-icon">
+							<i class="fa fa-map-marker" aria-hidden="true"></i>
+						</div>
+						<div class="separator"></div>
+						<select class="main_field" name="location" required>
+							<option value="" disabled selected>Your Location</option>
+							<option value="gdansk">Poland</option>
+							<option value="krakow">France</option>
+							<option value="poznan">Italty</option>
+							<option value="warszawa">Warszawa</option>
+							<option value="wroclaw">Wrocław</option>
+						</select>						
+					</div>					
+				<!-- REGISTER FORM / 6 row --> 
+				
+				<input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" >
+				<label for="checkbox-1" class="checkbox-custom-label">I have read and accept the terms of use.</label>
+
+				<!-- REGISTER FORM / sign in --> 	
+					<input class="main_green_button" type="submit" value="Sign up">							
+				
+         </form>
+         
+      </div>
+
+       <!-- SEND EMAIL -->
+      <h2 class="h2">Send Email</h2>
+      <div class="rf-container">
+         <form action="" class="form-rf">
+           		<!-- REGISTER FORM / 1 row -->
+					<div class="rf-element">
+						<div class="main-icon">
+							<i class="fa fa-user" aria-hidden="true"></i>
+						</div>
+						<div class="separator"></div>
+						<input class="main_field" type="text" name="Your Name"placeholder="Your Name" onfocus="this.placeholder=''" onblur="this.placeholder='Your Name'" required>
+					</div>    
+				<!-- REGISTER FORM / 4 row --> 
+            <div class="rf-element">
+               <div class="main-icon">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+               </div>
+               <div class="separator"></div>
+               <input class="main_field" type="email" name="Your Email"placeholder="Your Email" onfocus="this.placeholder=''" onblur="this.placeholder='Your Email'"  required>
+            </div>
+            <!-- text area -->
+            <textarea class="textarea" name="message" cols="40" rows="8" placeholder="Type your message..." onfocus="this.placeholder=''" onblur="this.placeholder='Type your message...'" wrap="hard" required></textarea>
+
+			<!-- REGISTER FORM / 6 row --> 
+				<input id="checkbox-2" class="checkbox-custom" name="checkbox-2" type="checkbox" >
+				<label for="checkbox-2" class="checkbox-custom-label">Send copy to my e-mail</label>
+
+			<!-- REGISTER FORM / SEND EMAIL --> 	
+               <input class="main_green_button" type="submit" value="Send email">
+               
+         </form>
+      </div>
+
+	  <!-- SEND EMAIL - END  --> 	
+      <!-- SIGN IN FORM -->
+
+      <h2 class="h2">Sign In  Form</h2>
+		<div class="rf-container">
+			<form action="" class="form-rf">
+           		<!-- REGISTER FORM / 1 row -->
+                       <div class="rf-element">
+                           <div class="main-icon">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+                           </div>
+                           <div class="separator"></div>
+                           <input class="main_field" type="text" name="Your Name"placeholder="Your Name" onfocus="this.placeholder=''" onblur="this.placeholder='Your Name'" required>
+                        </div>    
+				<!-- REGISTER FORM / 2 row -->          
+            		<div class="rf-element">
+						<div class="main-icon">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+						</div>
+						<div class="separator"></div>
+						<input class="main_field" type="password" name="password"placeholder="Password"
+						onfocus="this.placeholder=''" onblur="this.placeholder='Password'"  required>
+              		 </div>	
+       
+            <!-- REGISTER FORM / 6 row --> 
+					<div class="doublebtn">
+						<input id="checkbox-3" class="checkbox-custom" name="checkbox-3" type="checkbox" >
+						<label for="checkbox-3" class="checkbox-custom-label">Remember Me</label>
+						<!-- REGISTER FORM / SEND EMAIL --> 	
+					<input class="main_green_button main_green_button_smaller" type="submit" value="Sign in">
+					</div>
+        </form>
+	  </div>   
+	 <!-- SIGN IN FORM END  -->	
+
+	  <!-- Recover Form -->
+	  <h2 class="h2">Recover Form</h2>
+	  <div class="rf-container">
+		  <form action="" class="form-rf">
+			<!-- REGISTER FORM / 1 row -->
+					 <div class="rf-element">
+						 <div class="main-icon">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						 </div>
+						 <div class="separator"></div>
+						 <input class="main_field" type="text" name="Enter your Email"placeholder="Enter your Email" onfocus="this.placeholder=''" onblur="this.placeholder='Enter your Email'"   required>
+					  </div>    
+			<!-- REGISTER FORM / 2 row -->          
+		  		<div class="rf-element">
+					  <div class="main-icon">
+						  <i class="fa fa-mobile" aria-hidden="true"></i>
+					  </div>
+					  <div class="separator"></div>
+					  <input class="main_field" type="password" name="password"placeholder="Password"
+					  onfocus="this.placeholder=''" onblur="this.placeholder='Password'"  required>
+				 </div>	
+		    <!-- REGISTER FORM / 6 row --> 
+		  <div class="doublebtn">
+			<input class="main_green_button main_green_button_smaller" type="submit" value="Sign in">
+		    <!-- REGISTER FORM / SEND EMAIL --> 	
+			 <input class="main_green_button main_green_button_smaller main_green_button_smaller-disabled" type="submit" value="Done">
+		  </div>
+	  </form>
+	</div>  
+  <!-- Recover Form END -->
+  <!-- Subscribe Form -->
+  		<h2 class="h2">Subscribe Form</h2>
+		<div class="rf-container">
+			<form action="" class="form-rf">
+		<!-- REGISTER FORM / 1 row -->
+					<div class="rf-element">
+						<div class="main-icon">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</div>
+						<div class="separator"></div>
+						<input class="main_field" type="text" name="Enter your Email"placeholder="Enter your Email" onfocus="this.placeholder=''" onblur="this.placeholder='Enter your Email'" required>
+					</div>    
+		<!-- REGISTER FORM / 2 row -->          
+					<div class="rf-element">
+						<div class="main-icon">
+							<i class="fa fa-mobile" aria-hidden="true"></i>
+						</div>
+						<div class="separator"></div>
+						<input class="main_field" type="password" name="password"placeholder="Password"
+						onfocus="this.placeholder=''" onblur="this.placeholder='Password'"  required>
+					</div>	
+	    <!-- REGISTER FORM / 6 row --> 
+					<div class="doublebtn">
+						<input class="main_green_button main_green_button_smaller" type="submit" value="Subscribe">
+
+		<!-- REGISTER FORM / SEND EMAIL --> 	
+						<input class="main_green_button main_green_button_smaller main_green_button_smaller-warning" type="submit" value="No,  Thanks">
+					</div>
+ 			</form>
+		</div>  
+		<footer>
+			<div class="footer">
+				<div class="footer_top"><img src="IMG/2-layers.png" alt="Company logo"></div>
+				<div class="footer_bootm"><img src="IMG/website.png" alt="website address"></div>
+			</div>
+		</footer>
+	</section>	
+
+
+
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</body>
+</html>
